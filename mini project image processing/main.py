@@ -9,7 +9,7 @@ from skimage import io
 from pylab import *
 import scipy.misc
 #read file to folder have name images 
-im = Image.OPEN('input.png')
+im = Image.open('input.png')
 
 im1= im.filter(ImageFilter.CONTOUR)
 #show image on figure 
